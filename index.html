@@ -638,6 +638,54 @@ body {
     .nav button{ height: 40px; padding: 0 12px; display:inline-flex; align-items:center; }
     .contacts{ height: 40px; padding: 0 6px; display:inline-flex; align-items:center; }
     .contact{ height: 40px; padding: 0 10px; display:inline-flex; align-items:center; }
+    .lang-toggle{
+      height: 40px;
+      min-width: 44px;
+      padding: 0 12px;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      border: 1px solid var(--stroke);
+      border-radius: 12px;
+      background: var(--panel2);
+      color: var(--text);
+      cursor: pointer;
+      font-size: 13px;
+      font-weight: 800;
+      letter-spacing: 0;
+      transition: transform .08s ease, background .18s ease, border-color .18s ease;
+    }
+    .lang-toggle:hover{ background: var(--panel); border-color: color-mix(in srgb, var(--stroke) 65%, rgba(255,255,255,.25)); }
+    .lang-toggle:active{ transform: translateY(1px); }
+    @media (max-width: 720px){
+      .topbar .wrap{ display:block !important; }
+      .brand{ align-items:flex-start; }
+      .titleblock .t1{ white-space:normal; line-height:1.25; }
+      .top-right{ width:100%; justify-content:flex-start; gap:8px; margin-top:10px; }
+      .nav{
+        width:100%;
+        display:grid;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap:8px;
+      }
+      .nav button{
+        width:100%;
+        min-height:40px;
+        height:auto;
+        justify-content:center;
+        padding:8px 10px;
+        text-align:center;
+        white-space:normal;
+      }
+      .contacts{ max-width:calc(100% - 54px); overflow:hidden; }
+      .contact{ min-width:0; }
+      .contact .nowrap{ overflow:hidden; text-overflow:ellipsis; }
+      .lang-toggle{ flex:0 0 44px; }
+    }
+    @media (max-width: 520px){
+      .contacts{ display:none; }
+      .nav{ grid-template-columns: 1fr; }
+    }
 
     /* Sharper hero overlay for readability */
     .hero-with-bg .hero-bg::after{
@@ -693,6 +741,7 @@ body {
           <a class="contact" href="tel:+74957394352"><span aria-hidden="true" class="ic">✆</span><span class="nowrap">+7 495 739-43-52</span></a>
           <a class="contact" href="mailto:icode@my.mgimo.ru"><span aria-hidden="true" class="ic">✉</span><span class="nowrap">icode@my.mgimo.ru</span></a>
         </div>
+        <button aria-label="Переключить язык" class="lang-toggle" data-testid="language-toggle" type="button">EN</button>
       </div>
 
     </div>
@@ -5911,6 +5960,7 @@ body {
 </footer>
   </main>
 
+  <script src="assets/i18n.js"></script>
   <script>
   // Настройки: замените значения на актуальные ссылки проекта.
   const DASHBOARD_URL = "";
@@ -5999,9 +6049,14 @@ body {
       if (!container) return;
       const items = Array.from(container.querySelectorAll('details.accordion'));
       const visible = items.filter(d => d.style.display !== 'none').length;
-      el.textContent = (mode === 'w')
-        ? ("Найдено виджетов: " + visible + " из " + items.length + ".")
-        : ("Найдено заданий: " + visible + " из " + items.length + ".");
+      const template = mode === 'w' ? 'widgetsFound' : 'tasksFound';
+      if (window.AppI18n && typeof window.AppI18n.t === 'function') {
+        el.textContent = window.AppI18n.t(template, { visible, total: items.length });
+      } else {
+        el.textContent = (mode === 'w')
+          ? ("Найдено виджетов: " + visible + " из " + items.length + ".")
+          : ("Найдено заданий: " + visible + " из " + items.length + ".");
+      }
     });
   }
 
@@ -6019,7 +6074,7 @@ body {
             d.style.display = '';
             return;
           }
-          const hay = d.getAttribute('data-search') || "";
+          const hay = ((d.getAttribute('data-search') || "") + " " + d.textContent).toLowerCase();
           d.style.display = hay.includes(q) ? '' : 'none';
         });
         updateCounters();
