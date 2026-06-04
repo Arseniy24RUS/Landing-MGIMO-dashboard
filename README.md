@@ -16,6 +16,16 @@
 
 The project is not the full analytical dashboard itself; it is the public entry page that introduces the dashboard, directs users to the main analytical interface and describes the educational context in which the dashboard is used.
 
+### Visual overview
+
+![English hero overview](assets/visuals/hero-en.png)
+
+![English navigation scenario](assets/visuals/scenario-en.gif)
+
+![English architecture diagram](assets/visuals/architecture-en.svg)
+
+![English methodology diagram](assets/visuals/methodology-en.svg)
+
 ### Live page
 
 GitHub Pages: <https://arseniy24rus.github.io/Landing-MGIMO-dashboard/>
@@ -89,6 +99,16 @@ Unless otherwise stated, source code is released under the MIT License. Text, de
 `Landing-MGIMO-dashboard` — статический лендинг дашборда социально-экономических данных субъектов Российской Федерации, разработанного для использования в учебном процессе МГИМО. Лендинг объясняет назначение дашборда, его тематическую структуру, методическую роль и связь с более широким учебно-методическим комплексом по геоданным и геоинформационным системам.
 
 Проект не является полным аналитическим дашбордом; это публичная входная страница, которая представляет дашборд, направляет пользователя к основной аналитической платформе и описывает образовательный контекст его применения.
+
+### Визуальный обзор
+
+![Главный экран на русском](assets/visuals/hero-ru.png)
+
+![Сценарий навигации на русском](assets/visuals/scenario-ru.gif)
+
+![Диаграмма архитектуры на русском](assets/visuals/architecture-ru.svg)
+
+![Диаграмма методологии на русском](assets/visuals/methodology-ru.svg)
 
 ### Публичная страница
 

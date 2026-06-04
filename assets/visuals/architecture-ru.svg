@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="590" viewBox="0 0 1280 590" role="img" aria-labelledby="title desc">
+<title id="title">Архитектура: маршрут навигации дашборда</title><desc id="desc">Как лендинг собирает аналитический дашборд в образовательный маршрут.</desc>
+<defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#f2f5ff"/><stop offset="0.55" stop-color="#eef8f7"/><stop offset="1" stop-color="#d7f4fb"/></linearGradient><linearGradient id="node" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#ffffff"/><stop offset="1" stop-color="#eef7fb"/></linearGradient><filter id="shadow" x="-20%" y="-20%" width="140%" height="140%"><feDropShadow dx="0" dy="12" stdDeviation="14" flood-color="#12345a" flood-opacity="0.14"/></filter><marker id="arrow" markerWidth="16" markerHeight="16" refX="11" refY="8" orient="auto"><path d="M2,2 L12,8 L2,14 Z" fill="#1982c4"/></marker></defs>
+<style>.title{font:700 38px 'Segoe UI',Arial,sans-serif;fill:#1d222a;}.subtitle{font:400 19px 'Segoe UI',Arial,sans-serif;fill:#5d6573;}.step{font:700 23px 'Segoe UI',Arial,sans-serif;fill:#0e2d54;}.body{font:400 16px 'Segoe UI',Arial,sans-serif;fill:#5d6573;}.num{font:700 17px 'Segoe UI',Arial,sans-serif;fill:#fff;}.footer{font:600 18px 'Segoe UI',Arial,sans-serif;fill:#0e2d54;}</style>
+<rect width="1280" height="590" fill="url(#bg)"/><text class="title" x="72" y="78">Архитектура: маршрут навигации дашборда</text><text class="subtitle" x="74" y="112">Как лендинг собирает аналитический дашборд в образовательный маршрут.</text>
+<rect x="61" y="180" width="250" height="230" rx="22" fill="url(#node)" stroke="#b8c9d8" filter="url(#shadow)"/>
+<circle cx="97" cy="214" r="22" fill="#0e2d54"/>
+<text class="num" x="97" y="220" text-anchor="middle">01</text>
+<text class="step" x="186" y="258" text-anchor="middle">
+<tspan x="186" dy="0">Каталог</tspan>
+<tspan x="186" dy="24">дашборда</tspan>
+</text>
+<text class="body" x="186" y="324" text-anchor="middle">
+<tspan x="186" dy="0">7 тематических</tspan>
+<tspan x="186" dy="22">страниц</tspan>
+</text>
+<path d="M333,295 C367,295 307,295 341,295" fill="none" stroke="#1982c4" stroke-width="5" stroke-linecap="round" marker-end="url(#arrow)"/>
+<rect x="363" y="180" width="250" height="230" rx="22" fill="url(#node)" stroke="#b8c9d8" filter="url(#shadow)"/>
+<circle cx="399" cy="214" r="22" fill="#0e2d54"/>
+<text class="num" x="399" y="220" text-anchor="middle">02</text>
+<text class="step" x="488" y="258" text-anchor="middle">
+<tspan x="488" dy="0">Виджеты</tspan>
+</text>
+<text class="body" x="488" y="300" text-anchor="middle">
+<tspan x="488" dy="0">карты, графики,</tspan>
+<tspan x="488" dy="22">таблицы, фильтры</tspan>
+</text>
+<path d="M635,295 C669,295 609,295 643,295" fill="none" stroke="#1982c4" stroke-width="5" stroke-linecap="round" marker-end="url(#arrow)"/>
+<rect x="665" y="180" width="250" height="230" rx="22" fill="url(#node)" stroke="#b8c9d8" filter="url(#shadow)"/>
+<circle cx="701" cy="214" r="22" fill="#0e2d54"/>
+<text class="num" x="701" y="220" text-anchor="middle">03</text>
+<text class="step" x="790" y="258" text-anchor="middle">
+<tspan x="790" dy="0">Задания</tspan>
+</text>
+<text class="body" x="790" y="300" text-anchor="middle">
+<tspan x="790" dy="0">практика по</tspan>
+<tspan x="790" dy="22">каждому виджету</tspan>
+</text>
+<path d="M937,295 C971,295 911,295 945,295" fill="none" stroke="#1982c4" stroke-width="5" stroke-linecap="round" marker-end="url(#arrow)"/>
+<rect x="967" y="180" width="250" height="230" rx="22" fill="url(#node)" stroke="#b8c9d8" filter="url(#shadow)"/>
+<circle cx="1003" cy="214" r="22" fill="#0e2d54"/>
+<text class="num" x="1003" y="220" text-anchor="middle">04</text>
+<text class="step" x="1092" y="258" text-anchor="middle">
+<tspan x="1092" dy="0">Образовательная</tspan>
+<tspan x="1092" dy="24">навигация</tspan>
+</text>
+<text class="body" x="1092" y="324" text-anchor="middle">
+<tspan x="1092" dy="0">тема -&gt; анализ</tspan>
+<tspan x="1092" dy="22">-&gt; вывод</tspan>
+</text>
+<rect x="72" y="496" width="1136" height="48" rx="18" fill="#fff" opacity=".72" stroke="#c7d5df"/>
+<text class="footer" x="640" y="527" text-anchor="middle">Каталог дашборда -&gt; виджеты -&gt; задания -&gt; образовательная навигация</text>
+</svg>

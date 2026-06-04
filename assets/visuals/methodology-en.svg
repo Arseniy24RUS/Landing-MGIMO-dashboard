@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="590" viewBox="0 0 1280 590" role="img" aria-labelledby="title desc">
+<title id="title">Methodology: from complex to practice</title><desc id="desc">The teaching complex links methodological framing, dashboard exploration, and task work.</desc>
+<defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#f2f5ff"/><stop offset="0.55" stop-color="#eef8f7"/><stop offset="1" stop-color="#d7f4fb"/></linearGradient><linearGradient id="node" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#ffffff"/><stop offset="1" stop-color="#eef7fb"/></linearGradient><filter id="shadow" x="-20%" y="-20%" width="140%" height="140%"><feDropShadow dx="0" dy="12" stdDeviation="14" flood-color="#12345a" flood-opacity="0.14"/></filter><marker id="arrow" markerWidth="16" markerHeight="16" refX="11" refY="8" orient="auto"><path d="M2,2 L12,8 L2,14 Z" fill="#1982c4"/></marker></defs>
+<style>.title{font:700 38px 'Segoe UI',Arial,sans-serif;fill:#1d222a;}.subtitle{font:400 19px 'Segoe UI',Arial,sans-serif;fill:#5d6573;}.step{font:700 23px 'Segoe UI',Arial,sans-serif;fill:#0e2d54;}.body{font:400 16px 'Segoe UI',Arial,sans-serif;fill:#5d6573;}.num{font:700 17px 'Segoe UI',Arial,sans-serif;fill:#fff;}.footer{font:600 18px 'Segoe UI',Arial,sans-serif;fill:#0e2d54;}</style>
+<rect width="1280" height="590" fill="url(#bg)"/><text class="title" x="72" y="78">Methodology: from complex to practice</text><text class="subtitle" x="74" y="112">The teaching complex links methodological framing, dashboard exploration, and task work.</text>
+<rect x="95" y="180" width="310" height="230" rx="22" fill="url(#node)" stroke="#b8c9d8" filter="url(#shadow)"/>
+<circle cx="131" cy="214" r="22" fill="#0e2d54"/>
+<text class="num" x="131" y="220" text-anchor="middle">01</text>
+<text class="step" x="250" y="258" text-anchor="middle">
+<tspan x="250" dy="0">Educational-</tspan>
+<tspan x="250" dy="24">methodological</tspan>
+<tspan x="250" dy="24">complex</tspan>
+</text>
+<text class="body" x="250" y="348" text-anchor="middle">
+<tspan x="250" dy="0">data, geolayer,</tspan>
+<tspan x="250" dy="22">indicator dictionary</tspan>
+</text>
+<path d="M427,295 C461,295 429,295 463,295" fill="none" stroke="#1982c4" stroke-width="5" stroke-linecap="round" marker-end="url(#arrow)"/>
+<rect x="485" y="180" width="310" height="230" rx="22" fill="url(#node)" stroke="#b8c9d8" filter="url(#shadow)"/>
+<circle cx="521" cy="214" r="22" fill="#0e2d54"/>
+<text class="num" x="521" y="220" text-anchor="middle">02</text>
+<text class="step" x="640" y="258" text-anchor="middle">
+<tspan x="640" dy="0">Dashboard</tspan>
+<tspan x="640" dy="24">exploration</tspan>
+</text>
+<text class="body" x="640" y="324" text-anchor="middle">
+<tspan x="640" dy="0">KPI -&gt; map -&gt;</tspan>
+<tspan x="640" dy="22">graphs -&gt; tables</tspan>
+</text>
+<path d="M817,295 C851,295 819,295 853,295" fill="none" stroke="#1982c4" stroke-width="5" stroke-linecap="round" marker-end="url(#arrow)"/>
+<rect x="875" y="180" width="310" height="230" rx="22" fill="url(#node)" stroke="#b8c9d8" filter="url(#shadow)"/>
+<circle cx="911" cy="214" r="22" fill="#0e2d54"/>
+<text class="num" x="911" y="220" text-anchor="middle">03</text>
+<text class="step" x="1030" y="258" text-anchor="middle">
+<tspan x="1030" dy="0">Practical</tspan>
+<tspan x="1030" dy="24">tasks</tspan>
+</text>
+<text class="body" x="1030" y="324" text-anchor="middle">
+<tspan x="1030" dy="0">filters, values,</tspan>
+<tspan x="1030" dy="22">interpretive output</tspan>
+</text>
+<rect x="72" y="496" width="1136" height="48" rx="18" fill="#fff" opacity=".72" stroke="#c7d5df"/>
+<text class="footer" x="640" y="527" text-anchor="middle">Educational-methodological complex -&gt; dashboard exploration -&gt; practical tasks</text>
+</svg>
