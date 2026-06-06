@@ -34,6 +34,8 @@ GitHub Pages: <https://arseniy24rus.github.io/Landing-MGIMO-dashboard/>
 
 The dashboard described by this landing page is oriented toward teaching students to work with regional socio-economic data: from data selection and indicator interpretation to visualization, comparison of territories, analytical conclusions and policy recommendations. It supports courses and assignments related to geodata, geographic information systems, public administration, economics, international relations, political science, business informatics and data analysis.
 
+For research-readiness details, see [Methodology and Research Readiness](docs/methodology.md).
+
 ### Thematic content
 
 The landing page presents a dashboard covering key blocks of regional socio-economic analysis:
@@ -88,7 +90,13 @@ If you use the landing page structure, educational description or methodological
 
 ### License
 
-Unless otherwise stated, source code is released under the MIT License. Text, design documentation and educational materials are released under Creative Commons Attribution 4.0 International (CC BY 4.0). Names of institutions, third-party platforms and source datasets remain subject to their own rights and usage rules.
+License matrix:
+
+| Material | License / terms |
+| --- | --- |
+| Source code | [MIT](LICENSE) |
+| Documentation, data descriptions and educational content | [CC BY 4.0](LICENSE-DOCS-AND-DATA.md) |
+| Third-party names, logos, screenshots, platforms and source datasets | Original rights and terms; see [Third-Party Notices](THIRD_PARTY_NOTICES.md) |
 
 ---
 
@@ -117,6 +125,8 @@ GitHub Pages: <https://arseniy24rus.github.io/Landing-MGIMO-dashboard/>
 ### Учебная и аналитическая роль
 
 Дашборд, представленный на лендинге, ориентирован на обучение студентов работе с региональными социально-экономическими данными: от отбора данных и интерпретации показателей до визуализации, сравнения территорий, аналитических выводов и управленческих рекомендаций. Он поддерживает курсы и задания, связанные с геоданными, геоинформационными системами, государственным управлением, экономикой, международными отношениями, политологией, бизнес-информатикой и анализом данных.
+
+Подробнее о методологии и исследовательской готовности см. [Methodology and Research Readiness](docs/methodology.md).
 
 ### Тематическое содержание
 
@@ -172,4 +182,10 @@ python -m http.server 8000
 
 ### Лицензия
 
-Если явно не указано иное, исходный код распространяется по лицензии MIT. Тексты, проектная документация и учебные материалы распространяются по лицензии Creative Commons Attribution 4.0 International (CC BY 4.0). Наименования организаций, сторонние платформы и исходные наборы данных сохраняют собственные права и правила использования.
+Матрица лицензий:
+
+| Материал | Лицензия / условия |
+| --- | --- |
+| Исходный код | [MIT](LICENSE) |
+| Документация, описания данных и образовательный контент | [CC BY 4.0](LICENSE-DOCS-AND-DATA.md) |
+| Сторонние названия, логотипы, скриншоты, платформы и исходные наборы данных | Исходные права и условия; см. [Third-Party Notices](THIRD_PARTY_NOTICES.md) |
