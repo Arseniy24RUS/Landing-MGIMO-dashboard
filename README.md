@@ -1,4 +1,4 @@
-# MGIMO Regional Socio-Economic Dashboard · Landing Page
+﻿# MGIMO Regional Socio-Economic Dashboard · Landing Page
 
 [English](#english) · [Русский](#русский)
 
@@ -95,7 +95,7 @@ License matrix:
 | Material | License / terms |
 | --- | --- |
 | Source code | [MIT](LICENSE) |
-| Documentation, data descriptions and educational content | [CC BY 4.0](LICENSE-DOCS-AND-DATA.md) |
+| Documentation, data descriptions and educational content | [CC BY 4.0](docs/license-docs-and-data.md) |
 | Third-party names, logos, screenshots, platforms and source datasets | Original rights and terms; see [Third-Party Notices](THIRD_PARTY_NOTICES.md) |
 
 ---
@@ -187,5 +187,5 @@ python -m http.server 8000
 | Материал | Лицензия / условия |
 | --- | --- |
 | Исходный код | [MIT](LICENSE) |
-| Документация, описания данных и образовательный контент | [CC BY 4.0](LICENSE-DOCS-AND-DATA.md) |
+| Документация, описания данных и образовательный контент | [CC BY 4.0](docs/license-docs-and-data.md) |
 | Сторонние названия, логотипы, скриншоты, платформы и исходные наборы данных | Исходные права и условия; см. [Third-Party Notices](THIRD_PARTY_NOTICES.md) |

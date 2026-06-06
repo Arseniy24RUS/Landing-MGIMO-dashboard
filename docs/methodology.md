@@ -1,4 +1,4 @@
-# Methodology and Research Readiness
+﻿# Methodology and Research Readiness
 
 ## English
 
@@ -147,7 +147,7 @@ Useful manual checks:
 
 ```bash
 git status --short --branch
-rg -n "methodology|CC BY|MIT" README.md LICENSE-DOCS-AND-DATA.md THIRD_PARTY_NOTICES.md
+rg -n "methodology|CC BY|MIT" README.md docs/license-docs-and-data.md THIRD_PARTY_NOTICES.md
 rg -n "DASHBOARD_URL|REPO_URL" index.html
 ```
 
@@ -310,7 +310,7 @@ python -m http.server 8000
 
 ```bash
 git status --short --branch
-rg -n "methodology|CC BY|MIT" README.md LICENSE-DOCS-AND-DATA.md THIRD_PARTY_NOTICES.md
+rg -n "methodology|CC BY|MIT" README.md docs/license-docs-and-data.md THIRD_PARTY_NOTICES.md
 rg -n "DASHBOARD_URL|REPO_URL" index.html
 ```
 

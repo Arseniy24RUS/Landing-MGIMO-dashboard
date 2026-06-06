@@ -1,4 +1,4 @@
-# Third-Party Notices
+﻿# Third-Party Notices
 
 This repository documents and presents an educational landing page around a regional socio-economic dashboard. Some names, screenshots, logos, software packages and data references are not owned by the repository author and are not relicensed by the MIT or CC BY 4.0 files in this repository.
 
@@ -32,4 +32,4 @@ These packages and their transitive dependencies are governed by their own licen
 
 Logo files under `assets/logos/` are included to identify project participants, platforms or institutional context. They must not be treated as CC BY 4.0 content unless explicit permission from the relevant rights holder is available.
 
-Image and preview files under `assets/` and `assets/visuals/` may include project-created explanatory visuals, dashboard screenshots or derived screenshots. Reuse them with care: project-created explanatory content is covered by `LICENSE-DOCS-AND-DATA.md`, while embedded third-party elements remain under their original terms.
+Image and preview files under `assets/` and `assets/visuals/` may include project-created explanatory visuals, dashboard screenshots or derived screenshots. Reuse them with care: project-created explanatory content is covered by `docs/license-docs-and-data.md`, while embedded third-party elements remain under their original terms.
